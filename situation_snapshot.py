@@ -11,12 +11,6 @@ sys.stderr = sys.stdout
 import os
 from cgi import escape
 
-#p = subprocess.Popen(["/usr/local/bin/yowsup-cli", "demos", "-c", "/home/matthieu/dusche/yowsup/config", "-s", "491727393523", "'Das ist ein Test'"], stdout=subprocess.PIPE)
-
-#output, err = p.communicate()
-
-#os.system("python dusche.py")
-
 print "<strong>Python %s</strong>" % sys.version
 
 for k in sorted(os.environ.keys()):
